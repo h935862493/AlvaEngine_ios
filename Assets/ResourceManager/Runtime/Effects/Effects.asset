@@ -1,0 +1,216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b183842669c5d3246ace653f9dff6a48, type: 3}
+  m_Name: Effects
+  m_EditorClassIdentifier: 
+  effects_Items:
+  - type: Line Scan
+    type_chinaName: "\u7EBF\u5F62\u626B\u63CF"
+    classify: Material Animation
+    classify_chinaName: "\u6750\u8D28\u52A8\u753B"
+    material: {fileID: 2100000, guid: aa6790069e2f1b64aa51e5451ec18772, type: 2}
+    shader: {fileID: 4800000, guid: 913da01a6340cda49aadf4117d9fb471, type: 3}
+    sprite: {fileID: 0}
+    depend:
+    - LineScan;Transform
+  - type: Burning
+    type_chinaName: "\u6D88\u878D"
+    classify: Material Animation
+    classify_chinaName: "\u6750\u8D28\u52A8\u753B"
+    material: {fileID: 2100000, guid: 15e2f659759547b46801326ee8a894de, type: 2}
+    shader: {fileID: 4800000, guid: 913da01a6340cda49aadf4117d9fb471, type: 3}
+    sprite: {fileID: 0}
+    depend:
+    - Burning;Transform
+  - type: 3D Printing
+    type_chinaName: "3D\u6253\u5370"
+    classify: Material Animation
+    classify_chinaName: "\u6750\u8D28\u52A8\u753B"
+    material: {fileID: 2100000, guid: 358e9f0bfb10f4d43acec569a6334b52, type: 2}
+    shader: {fileID: 0}
+    sprite: {fileID: 0}
+    depend:
+    - Printing3D;Transform
+  - type: Holographic Grid
+    type_chinaName: "\u5168\u606F\u7F51\u683C"
+    classify: Material Animation
+    classify_chinaName: "\u6750\u8D28\u52A8\u753B"
+    material: {fileID: 2100000, guid: b55d94f62199fee4baf9fec181836988, type: 2}
+    shader: {fileID: 0}
+    sprite: {fileID: 0}
+    depend:
+    - HolographicGrid;Transform
+  - type: Transparent Bone
+    type_chinaName: "\u900F\u660E\u9AA8\u9ABC"
+    classify: Material Animation
+    classify_chinaName: "\u6750\u8D28\u52A8\u753B"
+    material: {fileID: 2100000, guid: ec1966bdcdb73ce4db8b09f635d60211, type: 2}
+    shader: {fileID: 0}
+    sprite: {fileID: 0}
+    depend:
+    - TransparentBone;Transform
+  - type: Rotation
+    type_chinaName: "\u65CB\u8F6C"
+    classify: Sport Animation
+    classify_chinaName: "\u8FD0\u52A8\u52A8\u753B"
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sprite: {fileID: 0}
+    depend:
+    - Rotate;Transform
+    - Rotate2;RectTransform
+  - type: Surround
+    type_chinaName: "\u73AF\u7ED5\u8FD0\u52A8"
+    classify: Sport Animation
+    classify_chinaName: "\u8FD0\u52A8\u52A8\u753B"
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sprite: {fileID: 0}
+    depend:
+    - CircleMotion;Transform
+    - CircleMotion2;RectTransform
+  - type: LinearMotion
+    type_chinaName: "\u76F4\u7EBF\u8FD0\u52A8"
+    classify: Sport Animation
+    classify_chinaName: "\u8FD0\u52A8\u52A8\u753B"
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sprite: {fileID: 0}
+    depend:
+    - LinearMotion;Transform
+    - LinearMotion2;RectTransform
+  - type: "Structural\_Decomposition(Slider)"
+    type_chinaName: "\u7ED3\u6784\u5206\u89E3(slider)"
+    classify: Sport Animation
+    classify_chinaName: "\u8FD0\u52A8\u52A8\u753B"
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sprite: {fileID: 0}
+    depend:
+    - StructuralDecompositionSlider;Transform
+  - type: "Structural\_Decomposition(Button)"
+    type_chinaName: "\u7ED3\u6784\u5206\u89E3(button)"
+    classify: Sport Animation
+    classify_chinaName: "\u8FD0\u52A8\u52A8\u753B"
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sprite: {fileID: 0}
+    depend:
+    - StructuralDecompositionButton;Transform
+  - type: FadeIn
+    type_chinaName: "\u6DE1\u5165"
+    classify: Show Animation
+    classify_chinaName: "\u663E\u793A\u52A8\u753B"
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sprite: {fileID: 0}
+    depend:
+    - FadeInUI;RectTransform
+  - type: CutIn
+    type_chinaName: "\u5207\u5165"
+    classify: Show Animation
+    classify_chinaName: "\u663E\u793A\u52A8\u753B"
+    material: {fileID: 2100000, guid: 35aa665d46e0ebb4eb1d906564f17423, type: 2}
+    shader: {fileID: 0}
+    sprite: {fileID: 0}
+    depend:
+    - CutIn;Transform
+    - CutIn2;RectTransform
+  - type: Extend
+    type_chinaName: "\u4F38\u5C55"
+    classify: Show Animation
+    classify_chinaName: "\u663E\u793A\u52A8\u753B"
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sprite: {fileID: 0}
+    depend:
+    - Extend;Transform
+    - Extend2;RectTransform
+  - type: WipeShow
+    type_chinaName: "\u64E6\u5165"
+    classify: Show Animation
+    classify_chinaName: "\u663E\u793A\u52A8\u753B"
+    material: {fileID: 2100000, guid: 1525ac4a996e8174ea356783d23e4655, type: 2}
+    shader: {fileID: 0}
+    sprite: {fileID: 0}
+    depend:
+    - WipeShow;Transform
+    - WipeShowUI;RectTransform
+  - type: FadeOut
+    type_chinaName: "\u6DE1\u51FA"
+    classify: Hide Animation
+    classify_chinaName: "\u9690\u85CF\u52A8\u753B"
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sprite: {fileID: 0}
+    depend:
+    - FadeOutUI;RectTransform
+  - type: CutOut
+    type_chinaName: "\u5207\u51FA"
+    classify: Hide Animation
+    classify_chinaName: "\u9690\u85CF\u52A8\u753B"
+    material: {fileID: 2100000, guid: 392336c0f55934e4bb20b417c51565f5, type: 2}
+    shader: {fileID: 0}
+    sprite: {fileID: 0}
+    depend:
+    - CutOut;Transform
+    - CutOut2;RectTransform
+  - type: Shrink
+    type_chinaName: "\u6536\u7F29"
+    classify: Hide Animation
+    classify_chinaName: "\u9690\u85CF\u52A8\u753B"
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sprite: {fileID: 0}
+    depend:
+    - Shrink;Transform
+    - Shrink2;RectTransform
+  - type: WipeHide
+    type_chinaName: "\u64E6\u9664"
+    classify: Hide Animation
+    classify_chinaName: "\u9690\u85CF\u52A8\u753B"
+    material: {fileID: 2100000, guid: c65ef2466c5067443ac288b4c9f79783, type: 2}
+    shader: {fileID: 0}
+    sprite: {fileID: 0}
+    depend:
+    - WipeHide;Transform
+    - WipeHideUI;RectTransform
+  - type: Shake
+    type_chinaName: "\u6296\u52A8"
+    classify: Emphasize Animation
+    classify_chinaName: "\u5F3A\u8C03\u52A8\u753B"
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sprite: {fileID: 0}
+    depend:
+    - Shake;Transform
+    - Shake2;RectTransform
+  - type: Pulastion
+    type_chinaName: "\u8109\u52A8"
+    classify: Emphasize Animation
+    classify_chinaName: "\u5F3A\u8C03\u52A8\u753B"
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sprite: {fileID: 0}
+    depend:
+    - Pulsate;Transform
+    - Pulsate2;RectTransform
+  - type: Shine
+    type_chinaName: "\u95EA\u70C1"
+    classify: Emphasize Animation
+    classify_chinaName: "\u5F3A\u8C03\u52A8\u753B"
+    material: {fileID: 0}
+    shader: {fileID: 0}
+    sprite: {fileID: 0}
+    depend:
+    - Shine2;RectTransform
+    - Shine;Transform

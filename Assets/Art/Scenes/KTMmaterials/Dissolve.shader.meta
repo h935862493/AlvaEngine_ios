@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 11999d672d7e76b448554c9144b85cda
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _MeshTexture: {fileID: 2800000, guid: 885e9893a50f456448746c2676b54157, type: 3}
+  - _LinearColor: {fileID: 2800000, guid: 902aae3ba10e5894c81f881e62e88390, type: 3}
+  - _FlakesBump: {fileID: 2800000, guid: 1169ae3514ec78447b915ec445961b32, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

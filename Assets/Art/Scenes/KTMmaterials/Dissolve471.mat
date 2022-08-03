@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dissolve471
+  m_Shader: {fileID: 4800000, guid: 11999d672d7e76b448554c9144b85cda, type: 3}
+  m_ShaderKeywords: _AXISCHOOSE_X _USEDISSOLVEEFFECT_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FlakesBump:
+        m_Texture: {fileID: 2800000, guid: f99898c878d4e4d379b517b913b7596e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LinearColor:
+        m_Texture: {fileID: 2800000, guid: 902aae3ba10e5894c81f881e62e88390, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MeshTexture:
+        m_Texture: {fileID: 2800000, guid: 885e9893a50f456448746c2676b54157, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: f99898c878d4e4d379b517b913b7596e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Nosie:
+        m_Texture: {fileID: 2800000, guid: a251f944d4b59b6429c71d1eb4d50dde, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WhiteNoise:
+        m_Texture: {fileID: 2800000, guid: dcc71921b79e05547894f875b8b0beea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _maintex:
+        m_Texture: {fileID: 2800000, guid: 9ec4dcf58cb8a4a0491a262d358ead21, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AxisChoose: 0
+    - _Cutoff: 0
+    - _DisslveEdge: 0.1
+    - _DissolveThreshold: 0
+    - _Edge: 0.2
+    - _EmissionStrenth: 0.84
+    - _FlakesBumpMapScale: 0
+    - _FlakesBumpStrength: 0.34
+    - _FresnelBias: 1.02
+    - _FresnelPower: 3.09
+    - _FresnelScale: 0.91
+    - _MaxZ: 0.5
+    - _Metallic: 0.7
+    - _MinZ: -0.5
+    - _Occlusion: 0.2
+    - _Smooth: 0.48
+    - _Threshold: -0.2
+    - _UseDissolve: 1
+    - _UseDissolveEffect: 1
+    - _WhiteNoiseEffect: 0.1
+    - __dirty: 0
+    - _debugopeca: 0
+    - _usetexture: 1
+    m_Colors:
+    - _Albedo: {r: 1, g: 1, b: 1, a: 1}
+    - _CaptureLocation: {r: 0, g: 0, b: 0, a: 0}
+    - _DissolveNoiseTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MeshTextureTiling: {r: 1, g: 1, b: 0, a: 0}

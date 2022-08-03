@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/AlvaVision/Scenes/AREngineMain.unity
+    guid: f1a56852a644b8a48880fe3cc3d3c833
+  m_configObjects:
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 809c4db6d712c419ab1ae5410dfc67a5,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 514802827d5b5450e863fd3f8d01cf00,
+      type: 2}

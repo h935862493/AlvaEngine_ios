@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Scan
+  m_Shader: {fileID: 4800000, guid: 867531f6b0a58674d9ec168e7e0a2e71, type: 3}
+  m_ShaderKeywords: _AXISCHOOSE_X _USEDISSOLVEEFFECT_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 6348a6accdc50c441b08d01a11a26ea8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlakesBump:
+        m_Texture: {fileID: 2800000, guid: 1169ae3514ec78447b915ec445961b32, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LinearColor:
+        m_Texture: {fileID: 2800000, guid: 902aae3ba10e5894c81f881e62e88390, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatallicMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MeshTexture:
+        m_Texture: {fileID: 2800000, guid: 885e9893a50f456448746c2676b54157, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Nosie:
+        m_Texture: {fileID: 2800000, guid: a251f944d4b59b6429c71d1eb4d50dde, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 885e9893a50f456448746c2676b54157, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WhiteNoise:
+        m_Texture: {fileID: 2800000, guid: dcc71921b79e05547894f875b8b0beea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _maintex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _occlusionMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ASEOutlineWidth: 0
+    - _AddPrecomputedVelocity: 1
+    - _AlphaCutoff: 0.5
+    - _AlphaCutoffEnable: 0
+    - _AlphaDstBlend: 0
+    - _AlphaSrcBlend: 1
+    - _AxisChoose: 0
+    - _BlendMode: 0
+    - _BumpScale: 1
+    - _CullMode: 2
+    - _CullModeForward: 2
+    - _Cutoff: -0.57
+    - _DetailNormalMapScale: 1
+    - _DisslveEdge: 0.37
+    - _DissolveEdge: 0.1
+    - _DissolveThreshold: 0.35
+    - _DoubleSidedEnable: 0
+    - _DoubleSidedNormalMode: 2
+    - _DstBlend: 0
+    - _Edge: 0.08
+    - _EmisStrenth: 1.26
+    - _EmissionStrenth: 0.65
+    - _EnableFogOnTransparent: 1
+    - _FlakesBumpMapScale: 2441.5
+    - _FlakesBumpStrength: 0.24
+    - _Float0: -0.4
+    - _Float1: 0
+    - _Float2: 0.1
+    - _Float3: 0.5
+    - _FresnelBias: 0.139
+    - _FresnelPower: 1
+    - _FresnelScale: 0.065
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _MaxZ: 25
+    - _Metallic: 0.76
+    - _MinZ: 20
+    - _Mode: 0
+    - _Occlusion: 0.2
+    - _OcclusionStrength: 1
+    - _Opacity: 0.1
+    - _Parallax: 0.02
+    - _ReceivesSSR: 0
+    - _RenderQueueType: 1
+    - _RequireSplitLighting: 0
+    - _Scale: 7.83
+    - _Smooth: 0
+    - _Smoothness: 0.56
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StencilRef: 0
+    - _StencilRefDepth: 0
+    - _StencilRefDistortionVec: 4
+    - _StencilRefGBuffer: 2
+    - _StencilRefMV: 32
+    - _StencilWriteMask: 6
+    - _StencilWriteMaskDepth: 8
+    - _StencilWriteMaskDistortionVec: 4
+    - _StencilWriteMaskGBuffer: 14
+    - _StencilWriteMaskMV: 40
+    - _SurfaceType: 0
+    - _Threshold: 0.02
+    - _TransparentBackfaceEnable: 0
+    - _TransparentCullMode: 2
+    - _TransparentSortPriority: 0
+    - _TransparentZWrite: 1
+    - _UVSec: 0
+    - _UseDissolve: 1.75
+    - _UseDissolve1: 1
+    - _UseDissolveEffect: 1
+    - _UseOpacity: 1
+    - _UseShadowThreshold: 0
+    - _WhiteNoiseEffect: 0.1
+    - _ZTestDepthEqualForOpaque: 4
+    - _ZTestGBuffer: 4
+    - _ZTestTransparent: 4
+    - _ZWrite: 1
+    - __dirty: 1
+    - _debugopeca: 0
+    - _usetexture: 0
+    m_Colors:
+    - _ASEOutlineColor: {r: 1, g: 0, b: 0, a: 0}
+    - _Albedo: {r: 1, g: 0.49803925, b: 0, a: 1}
+    - _CaptureLocation: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 0.49803925, b: 0, a: 1}
+    - _DissolveNoiseTiling: {r: 1, g: 0, b: 0, a: 0}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _EmissionColor: {r: 0, g: 1, b: 0.8721261, a: 1}
+    - _FresnelColor: {r: 0, g: 0.8313726, b: 0.5490196, a: 1}
+    - _MeshTextureTiling: {r: 0, g: 0, b: 0, a: 0}
+    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Uvtilng: {r: 4.48, g: 21.93, b: 0, a: 0}
+    - _tiling: {r: 15.16, g: 15, b: 0, a: 0}
+  m_BuildTextureStacks: []

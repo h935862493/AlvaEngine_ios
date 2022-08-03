@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: errorMT
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _ALPHATEST_ON _AXISCHOOSE_X _USEDISSOLVEEFFECT_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2450
+  stringTagMap:
+    RenderType: TransparentCutout
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlakesBump:
+        m_Texture: {fileID: 2800000, guid: 1169ae3514ec78447b915ec445961b32, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LinearColor:
+        m_Texture: {fileID: 2800000, guid: 902aae3ba10e5894c81f881e62e88390, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MeshTexture:
+        m_Texture: {fileID: 2800000, guid: 885e9893a50f456448746c2676b54157, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Nosie:
+        m_Texture: {fileID: 2800000, guid: a251f944d4b59b6429c71d1eb4d50dde, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WhiteNoise:
+        m_Texture: {fileID: 2800000, guid: dcc71921b79e05547894f875b8b0beea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _maintex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _AxisChoose: 0
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DisslveEdge: 0.1
+    - _DissolveEdge: 0.1
+    - _DissolveThreshold: 0.5311602
+    - _DstBlend: 0
+    - _Edge: 0.2
+    - _EmissionStrenth: 1
+    - _EnableExternalAlpha: 0
+    - _FlakesBumpMapScale: 2441.5
+    - _FlakesBumpStrength: 0.24
+    - _FresnelBias: 0
+    - _FresnelPower: 1
+    - _FresnelScale: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _MaxZ: 0.5
+    - _Metallic: 0
+    - _MinZ: -0.5
+    - _Mode: 1
+    - _Occlusion: 0.2
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Shininess: 0.078125
+    - _Smooth: 0
+    - _Smoothness: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Threshold: -0.2
+    - _UVSec: 0
+    - _UseDissolve: 1
+    - _UseDissolveEffect: 1
+    - _UseOpacity: 1
+    - _WhiteNoiseEffect: 0.1
+    - _ZWrite: 1
+    - __dirty: 1
+    - _usetexture: 0
+    m_Colors:
+    - _Albedo: {r: 0, g: 0, b: 0, a: 0}
+    - _CaptureLocation: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveNoiseTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _FresnelColor: {r: 0, g: 0.8313726, b: 0.5490196, a: 0}
+    - _MeshTextureTiling: {r: 0, g: 0, b: 0, a: 0}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Tiling: {r: 0, g: 0, b: 0, a: 0}
+    - _tiling: {r: 1, g: 1, b: 0, a: 0}
